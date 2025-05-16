@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inderjeet-Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(6, 6, 50);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(13, 13, 65);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+         nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+       
+        nav ul li a:hover{
+            color: rgb(180, 180, 236);
+            font-size: 1.02rem;
+        }
+
+        .left {
+            font-size: 1.7rem;
+        }
+
+        .firstsec>div {
+            width: 30%;
+
+        }
+
+        .leftsec {
+            font-size: 3rem;
+        }
+
+        .rightsec img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(252, 222, 186);
+        }
+        #element{
+              color: rgb(252, 222, 186);
+        }
+        .secondsection{
+            width:55%;
+            margin: 0 auto;
+            color: rgb(211, 198, 198);
+            font-size: 1.9rem;
+           margin-top: 30px;
+        }
+        .mail{
+            
+            margin: 0 auto;
+            width:190px;
+            height: max-content;
+            margin-top: 50px;
+            font-size: 1.7rem;
+            border:1px solid rgb(252, 222, 186);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mail a{
+            text-decoration: none;
+            color:rgb(252, 222, 186);
+        }
+         .mail a:hover{
+            color:rgb(249, 246, 252);
+            font-size: 1.8rem;
+         }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Inder's-Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home </a></li>
+                    <li> <a href="about.html">About</a></li>
+                    <li><a href="projects.html"> Projects</a></li>
+                    <li><a href="contact.html">Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsec"
+            style="display: flex; justify-content: space-around; margin: 80px 0; align-items: center;">
+            <div class="leftsec">Hi My name is <span class="purple">Inderjeet Singh</span>
+                <div>and I am a passionate
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="rightsec"><img src="p1.png" alt=""></div>
+        </section>
+        <section class="secondsection">
+            <div>Currently, I completed my Graduation in BCA , I feel joy in taking knowlede and making projects . I basically take knowledge from reading Books and seeing Videos. </div>
+           
+        </section>
+        
+    </main>
+    <footer>
+        <div class="mail">
+            <a href="mailto:inderjeetsinghkhalsa445@gmail.com">Get In Touch!</a>
+        </div></footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Backend Developer','C++ Developer','Data Analysist'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
